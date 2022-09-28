@@ -58,6 +58,18 @@ label{
     width: 170px;
 }
 
+aside{
+    color: #fff;
+}
+
+aside input[type = 'text']{
+    margin-bottom: 10px;
+}
+
+aside p{
+    margin: 10px 0;
+}
+
 #container{
     width: 960px;
 }

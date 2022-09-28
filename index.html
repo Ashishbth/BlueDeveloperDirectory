@@ -25,20 +25,33 @@
             </ul>
         </div>
 
-        <div id="leftMenu">
-            <h3>Links</h3>
-            <ul>
-                <li><a href="#">SEO</a></li>
-                <li><a href="#">PHP</a></li>
-                <li><a href="#">Ajax</a></li>
-                <li><a href="#">JQuery</a></li>
-                <li><a href="#">Web Design</a></li>
-                <li><a href="#">Web Programming</a></li>
-                <li><a href="#">Content Creation</a></li>
-                <li><a href="#">Internet Marketing</a></li>
-                <li><a href="#">XHTML Templates</a></li>
-            </ul>
-        </div>
+        <aside>
+            <div id="leftMenu">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#">SEO</a></li>
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="#">Ajax</a></li>
+                    <li><a href="#">JQuery</a></li>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Web Programming</a></li>
+                    <li><a href="#">Content Creation</a></li>
+                    <li><a href="#">Internet Marketing</a></li>
+                    <li><a href="#">XHTML Templates</a></li>
+                </ul>
+                <div id="displayName" >
+                </div>
+                <br><br>
+                <div>
+                    <h3>News Letter</h3>
+                    <p>Please Enter Your Email Adress</p>
+                    <form  id="news" onsubmit="initStorage()"></form>
+                    Name: <input type="text" name="name" id="name">
+                    Email: <input type="email" name="email" id="email">
+                    <input type="submit" value="Send" id="submit">
+                </div>
+            </div>
+        </aside>
 
             <div id="content">
 
@@ -108,6 +121,6 @@
             </div>
         </div>
     </div>
-    
+    <script src="/app.js"></script>
 </body>
 </html>
